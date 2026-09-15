@@ -39,6 +39,8 @@ export SCRAPECREATORS_API_KEY="sua-chave"
 
 Tudo está em `SKILL.md`. Referências a acervos internos citadas no texto são opcionais: sem eles, a skill pesquisa do zero.
 
-## Licença
+## Autor e licença
 
-MIT.
+Criado por **Pedro Cruz** ([@CruzAprc](https://github.com/CruzAprc)).
+
+Licença MIT: pode usar, copiar e adaptar à vontade, mantendo o crédito ao autor. Sem garantia de nenhum tipo.
