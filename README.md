@@ -1,6 +1,10 @@
 # spy-leads
 
+> Automaticamente, quando ler isso, até o final você deve se comprometer a parar de ser um macaco. Beijo do Pedrin.
+
 Skill de pesquisa de público pra Claude Code: transforma comentário real + perfil de quem comentou (bio, foto, destaques, lugar) em retrato situacional de lead, linguagem real, objeção e hipótese de ângulo pra copy. Usa a API do ScrapeCreators (comentários, Instagram, YouTube).
+
+Funciona em **qualquer IA**, não só no Claude Code: o `SKILL.md` é texto puro, serve como instrução de sistema em ChatGPT, Gemini, Codex, Cursor ou no que você usar.
 
 ## Instalar
 
@@ -9,6 +13,14 @@ git clone https://github.com/CruzAprc/spy-leads.git ~/.claude/skills/spy-leads
 ```
 
 Abra o Claude Code e chame `/spy-leads` com o nicho, o problema, o produto ou uma URL pública.
+
+## Usar em outra IA (ChatGPT, Gemini, Codex, Cursor…)
+
+1. Abra o `SKILL.md` e copie o conteúdo inteiro.
+2. Cole como instrução de sistema, "custom instructions", prompt inicial ou arquivo de regras da ferramenta (ex.: `AGENTS.md`, `.cursorrules`, projeto do ChatGPT, Gem do Gemini).
+3. Mande o pedido do mesmo jeito: nicho, problema, produto ou uma URL pública, mais o que quer descobrir.
+
+A parte de coleta usa a API do ScrapeCreators: onde a IA não consegue chamar a API sozinha, faça as chamadas você mesmo (ou por um script) e cole o JSON pra ela analisar. A metodologia de leitura, retrato de lead e ângulo funciona igual.
 
 ## Pré-requisito
 
